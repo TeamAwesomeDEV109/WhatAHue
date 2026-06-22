@@ -1,0 +1,38 @@
+/* --- PROTOTYPE VISUALS --- */
+
+/* Color Wheel Image */
+.wheel-image {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+}
+
+/* Color Swatch Containers */
+.swatch-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.swatch {
+    flex: 1;
+    min-width: 80px;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Specific Colors */
+.swatch.red { background-color: #E74C3C; }
+.swatch.yellow { background-color: #F1C40F; color: #333; text-shadow: none; }
+.swatch.blue { background-color: #3498DB; }
+.swatch.orange { background-color: #E67E22; }
+.swatch.green { background-color: #2ECC71; }
+.swatch.purple { background-color: #9B59B6; }

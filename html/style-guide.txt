@@ -1,0 +1,10 @@
+What a Hue! - Style Guide and Inline Style Justification
+
+1. CSS Control
+All primary layout, typography, and color schemes are controlled globally via /css/styles.css.
+
+2. Inline Style Justification
+Inline styles have been kept to an minimum. The only instance of an inline style is found in the header navigation links. 
+
+Justification: This was done strictly to override default browser anchor tag formatting (standard blue/underlined text) within the header to make sure the logo link blended
+with the primary navigation bar color without creating a specific, one-off CSS class for a single element.
